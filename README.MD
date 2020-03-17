@@ -33,7 +33,7 @@ sim_SEIR("Hubei",N0=55e6,alpha=c(0,0.42,0.84),
 ```
 This gives
 
-![alt text](figures/Hubei.png)
+![alt text](Hubei.png)
 
 The blue dots are real data of new cases reported; the red line is the “simulated number of new cases”, provided by the solution to the SEIR model; the green line is the “simulated number of reported new cases”, which is the solution to the SEIR model modified by the effect of insufficient testing kits.
 
